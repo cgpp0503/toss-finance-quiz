@@ -1,0 +1,24 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+
+# Node modules (절대 올라가면 안 되는 필수 항목)
+node_modules/
+
+# Build artifacts
+dist/
+dist-ssr/
+
+# Environment Variables (절대 올라가면 안 되는 보안 파일 항목)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
